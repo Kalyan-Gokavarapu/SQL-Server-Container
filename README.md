@@ -17,5 +17,5 @@ docker-compose up -d
     docker exec -it sqlserver_container /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P sqlserver_password
 
 ####  Note: 
-######  sqlserver_container is the container name
-###### sqlserver_password is the password for sa user
+`sqlserver_container` is the container name and
+`sqlserver_password` is the password for `sa` user
