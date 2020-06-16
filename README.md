@@ -13,8 +13,8 @@ You can use a SQl Server Management Studio or any other tool to connect to the s
     Password: sqlserver_password
 
 
-You can connect to the server instance from PowerShell as well by using the below command
-    docker exec -it sqlserver_container /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P sqlserver_password
+You can connect to the server instance from PowerShell as well by using the below command <br/>
+`docker exec -it sqlserver_container /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P sqlserver_password`
 
 Note: 
 `sqlserver_container` is the container name and
